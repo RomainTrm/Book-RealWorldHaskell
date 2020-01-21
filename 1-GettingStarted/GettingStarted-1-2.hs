@@ -1,4 +1,4 @@
--- Exercice 1
+-- Exercise 1
 
 5 + 8           -- -> 13, it :: Num a => a
 3 * 5 + 8       -- -> 25, it :: Num a => a
@@ -17,7 +17,7 @@ floor 3.7       -- -> 3, it :: Integral b => b
 ceiling 3.3     -- -> 4, it :: Integral b => b
 
 
--- Exercice 2
+-- Exercise 2
 
 let x = 1
 :show bindings

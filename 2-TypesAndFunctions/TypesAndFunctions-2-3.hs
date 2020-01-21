@@ -1,11 +1,11 @@
--- Exercice 2
+-- Exercise 2
 
 lastButOne :: [a] -> a
 lastButOne (x:_:[]) = x
 lastButOne (_:xs) = lastButOne xs
 
 
--- Exercice 3
+-- Exercise 3
 
 -- lastButOne "abc" -> 'b'
 -- lastButOne "ab" -> 'a'
