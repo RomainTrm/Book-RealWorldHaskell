@@ -1,3 +1,3 @@
 
 firstWordOfLine :: String -> String
-firstWordOfLine text = unwords $ fmap (head . words) $ lines text
+firstWordOfLine text = unwords $ map (head . words) $ lines text
