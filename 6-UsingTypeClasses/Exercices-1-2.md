@@ -1,4 +1,4 @@
-1. Load the Control.Arrow module into ghci, and find out what the second function does.
+## 1. Load the Control.Arrow module into ghci, and find out what the second function does.
 
 second :: Arrow a => a b c -> a (d, b) (d, c)
 
@@ -15,8 +15,7 @@ myArrow :: Arrow a => a [Char] [Char]
 ghci> second myArrow (True, "Romain") -- The first element of the tuple doesn't matter here, it could be anything
 (True, "Hello, Romain")
 
-
-2. What is the type of (,)? When you use it in ghci, what does it do? What about (,,)?
+## 2. What is the type of (,)? When you use it in ghci, what does it do? What about (,,)?
 
 Type of (,) is a -> b (a, b)
 It takes two arguments and return a tuple of thoses.
